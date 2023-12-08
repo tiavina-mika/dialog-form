@@ -50,7 +50,7 @@ const Footer = () => {
           By Tiavina Michael Ralainirina
         </Typography>
       </div>
-      <div className="flexCenter stretchSelf flex1">
+      <div className="flexCenter stretchSelf  flex={1} flex1">
         <Typography className="flexRow center grey800">
           <span css={{ marginRight: 2 }}>©</span>
           <span>{new Date().getFullYear()}</span>
